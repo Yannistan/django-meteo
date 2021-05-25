@@ -32,7 +32,7 @@ if os.environ.get("ENV") == 'PRODUCTION':
     ALLOWED_HOSTS = [
         '0.0.0.0',
         'localhost',
-        'bureau77.herokuapp.com'
+        'meteo77.herokuapp.com'
     ]
 else:
     DEBUG = True
@@ -41,7 +41,6 @@ else:
         'localhost',
         '127.0.0.1'
     ]
-
 
 # Application definition
 
